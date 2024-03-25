@@ -1,0 +1,177 @@
+
+.signup {
+    margin-bottom: 10p;
+    margin-left: 25% ;
+    padding-top: 10px;
+    height: 90%;
+    width: 900px;
+    
+    border-radius: 12px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.9), 0 10px 40px 0 rgba(255, 255, 255, 0.9); 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signup h6{
+    margin-top: 2%;
+    font-size: 35px;
+}
+.signup p{
+    color: white;
+}
+
+.form {
+    margin-top: auto;
+    height: 650px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    justify-content: center;
+
+}
+.in p{
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 2px 10px; 
+    color: #ffffff;
+    font-size: 20px;
+
+
+}
+.in label{
+    margin: 0%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 2px 10px; 
+    color: #ffffff;
+    font-size: 20px;
+
+
+}
+.in input{
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 300px;
+    opacity: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: large;
+    display: flex;
+    align-items: left;
+    padding-left: 12px;
+}
+
+.in select{
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    height: 45px;
+    width: 300px;
+    opacity: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: large;
+    display: flex;
+    align-items: left;
+    padding-left: 12px;
+}
+
+.signup_button{
+    margin-top: 40px;
+    background-color: #ff3d00;
+    color: white;
+    padding: 18px 80px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.signup_button:hover{
+    background-color: #F79327;
+    color: black;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.signup a :hover{
+    background-color: #F79327;
+    color: black;
+}
+
+.login p{
+    margin: 0%;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    padding: 2px 10px; 
+    color: #DB005B;
+
+    font-size: 25px;
+
+}
+.login_button{
+    margin-top: 20%px;
+    margin-left: 55%;
+    background-color: #DB005B;
+    color: white;
+    padding: 15px 28px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button:hover{
+    background-color: #F79327;
+    color: black;
+}
+.login_button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .innerinner {
+    float: left;
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .inner::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .error-message p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* Add any other styles to make the error message visible */
+}
+.success-message p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 89);
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* Add any other styles to make the error message visible */
+}
